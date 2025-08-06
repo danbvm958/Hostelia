@@ -1,0 +1,26 @@
+#MenuButton{
+    position: absolute;
+    width: 1.5em;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    top: 0.5em;
+    right: 1em;
+}
+
+.Menu{
+    background-color: beige;
+    border: 1px solid black;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    right: 3.5em;
+    padding: 1em;
+    border-radius: 20px;
+    line-height: 30px;
+}
+
+.Menu > *{
+    color: black;
+    text-decoration: none;
+}
