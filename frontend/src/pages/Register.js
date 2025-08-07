@@ -21,7 +21,7 @@ export default function Register(){
             Password : password
         };
 
-        fetch('http://localhost:5000/signup',{
+        fetch('http://localhost:5000/auth/signup',{
             method: "POST",
             headers:{
                 "Content-Type": "application/json"
