@@ -1,6 +1,7 @@
 import { useState } from "react";
 import '../styles/Login.css'
 import Header from "../components/Header";
+import { Link } from 'react-router-dom';
 
 export default function Login(){
     const [mail, setmail] = useState("");
@@ -9,7 +10,7 @@ export default function Login(){
     return(
         <>
             <Header />
-            <form id="LoginForm">
+            <form id="ConnectForm">
                 <label>Entrez votre e-mail :</label>
                 <input 
                 type="mail"
@@ -26,6 +27,7 @@ export default function Login(){
                 required
                 />
                 <br/>
+                <p >Pas inscrit ? <Link to="/register">Inscrivez vous</Link></p>
                 <input
                 type="submit"
                 />

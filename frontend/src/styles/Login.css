@@ -1,4 +1,4 @@
-#LoginForm{
+#ConnectForm{
   width: 300px;
   margin: 100px auto;
   border: 2px solid hotpink;
@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-#LoginForm > * {
+#ConnectForm > * {
     margin-bottom: 20px;
 }
 
